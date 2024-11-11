@@ -9,7 +9,7 @@ int main()
     cout<<"enter your number which you want to reverse";
     cin>>y;
     z=y;
-    
+    // bhai dekh ye rehe mere changes
     while (y>0)
     {   
         x=y%10;
@@ -25,7 +25,8 @@ int main()
         cout<<"your number is not palindorme\n";
     }
     
-    cout<<"here is the value of z\n"<<z;
+
+    //pata chala q y ki value zero hai
     cout<<y;
     cout<<"\nhere is your reverse number\n"<<rev;
 
