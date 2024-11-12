@@ -10,11 +10,9 @@ int main()
     cout << "enter your number which you want to reverse";
     cin >> y;
     z = y;
-
-
         // tum mera land ho
         // samjhe
-        
+
     while (y > 0)
     {
         x = y % 10;
@@ -22,10 +20,16 @@ int main()
         y = y / 10;
     }
     if (z == rev)
-    {cout << "your number is palindrome\n";}
+    {
+        cout << "your number is palindrome\n";
+    }
     else
-    {cout << "your number is not palindorme\n";}
-    cout << "here is the value of z\n"<< z;
+    {
+        cout << "your number is not palindorme\n";
+    }
+    cout << "here is the value of z\n"
+         << z;
     cout << y;
-    cout << "\nhere is your reverse number\n"<< rev;
+    cout << "\nhere is your reverse number\n"
+         << rev;
 }
